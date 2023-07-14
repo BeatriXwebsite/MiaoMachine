@@ -1,0 +1,7 @@
+Miao Machine è un slot machine con i gattini! 
+
+Un semplice giochino in HTML, CSS e Javascript sviluppato da Beatrice Costantini per un contest di ItaDevSupport.
+
+Enjoy
+
+BX

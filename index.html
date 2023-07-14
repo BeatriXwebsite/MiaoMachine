@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="script.js" defer></script>
+
+  <title>Miao machine</title>
+</head>
+<body>
+  
+  <div class="text-center">
+    <div class="machine sopra">
+      <h1>Miao machine</h1>
+      <p id="intro">Senti cosa hanno da dire i gattini...</p>
+    </div>
+
+    <div class="machine sotto">
+      <div class="slots shadow">
+      <div id="slot-1" class="icon"></div>
+      <div id="slot-2" class="icon"></div>
+      <div id="slot-3" class="icon"></div>
+      </div>
+      
+      <div id="esito" class="shadow"></div>
+      <div id="modal"></div>
+
+      <div class="bottom">
+        <p class="shadow">R to restart</p>
+        <button id="button" class="text-center shadow" onclick="game()"><img id="zampa" src="/zampa.png" alt="zampa"></button>
+        <p class="shadow">Made with ❤️ by <a href="https://beatrix.website/home" target="_blank">BX</a></p>
+      </div>
+      
+    </div>
+    
+  </div>
+
+</body>
+</html>
